@@ -1,0 +1,24 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&display=swap");
+
+/* Tailwind Rules */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic Rules */
+body {
+  font-family: "Cairo", sans-serif;
+  color: white;
+}
+
+/* Extras */
+header {
+  background: rgba(0, 0, 0, 0.5) url(/images/landing.png);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+li {
+  cursor: pointer;
+}
